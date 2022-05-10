@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url(background.gif);
+  background-image: url(img/background.gif) ;
   padding: 20px;
   font-family: Arial;
 }
@@ -64,7 +64,7 @@ h1 {
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: white;
+  background-color:azure;
   cursor: pointer;
 }
 
@@ -74,7 +74,7 @@ h1 {
 
 .btn.active {
   background-color: #666;
-  color: white;
+  color:black;
 }
 </style>
 </head>
@@ -83,127 +83,100 @@ h1 {
 <!-- MAIN (Center website) -->
 <div class="main">
 
-<h1>Margarita's Blog</h1>
+<h1>Get to know Margarita Labra!</h1>
 <hr>
 
-<h2>This is my traveling list</h2>
-
 <div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')">Show all</button>
-  <button class="btn" onclick="filterSelection('america')">America</button>
-  <button class="btn" onclick="filterSelection('europe')">Europe</button>
-  <button class="btn" onclick="filterSelection('asia')">Asia</button>
-  <button class="btn" onclick="filterSelection('africa')">Africa</button>
+  <button class="btn" onclick="filterSelection('home')">Home</button>
+  <button class="btn" onclick="filterSelection('aboutMe')">About Me</button>
+  <button class="btn" onclick="filterSelection('pictures')">Pictures</button>
+  <button class="btn" onclick="filterSelection('info')">Contact information</button>
 </div>
 
 <!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column america">
-    <div class="content">
-      <img src="AguaAzul.gif" alt="Car" style="width:100%">
-      <h4>Agua Azul Chiapas</h4>
-      <h5>Fun Fact</h5>
-      <p>During the dry season, in April or May, the water is shimmering blue because of 
-        the high amount of soluted limestone.</p>
+</div>
+<div class="column home">
+    <h2>Hello my name is Margarita Labra and on this website I will show some of my favorite types of
+      dishes/food, my favorite people. my family and some of the things I have done over the last year
+    :) I have a few pictures and as you can tell, most of 
+      my favorite food is Mexican food since I grew up being introduced to all these types of food, also I love my family and 
+    friends and I will introduce to you a few pictures </h2>
     </div>
   </div>
-  <div class="column america">
+<div class="column aboutMe">
+    <h3>Hello my name is Margarita Labra and I am a senior at W.H Adamson High School and dallas 
+      college. I will be graduation this Sping semester and I am really excited because I have worked so 
+    hard to get to this postion in my life. After I graduate, I plan to attend UT Arlington and study 
+    Computer Science. Below, there is a picture of me just to introduce and you know 
+  who you are talking to. </h3>
+</div>
+<div class="column aboutMe">
+  <div class="content">
+    <img src="/img/myself.JPG" alt="food" style="width:100%">
+    <h4>THIS IS ME!</h4>  
+  </div>
+</div>
+</div>
+  <div class="column pictures">
     <div class="content">
-    <img src="Colombia.gif" alt="Car" style="width:100%">
-      <h4>Colombia Medellin</h4>
-      <h5>Fun Fact</h5>
-      <p> This name of city has changed by several times. Under Spanish settlement, this city 
-        named Abura de los Yamasies, Valley of Saint Bartholomew, Saint Lawrence of Ana, Villa 
-        de la Candelaria de Medellin, then finally Medellin. The final name derived from Medellin,
-         a small village in the Badajoz province of Extremadura, Spain.</p>
+      <img src="/img/AlfredoPasta.jpg" alt="food" style="width:100%">
+      <h4>Olive Garden Alfredo Pasta one of my favorites restaurants and dishes </h4>  
     </div>
   </div>
-  <div class="column europe">
+  <div class="column pictures">
     <div class="content">
-    <img src="Madrid.gif" alt="Car" style="width:100%">
-      <h4>Madrid, Spain</h4>
-      <h5>Fun Fact</h5>
-      <p>Madrid gets its name from the Arabic "magerit" which means
-         'place of many streams.'</p>
+    <img src="/img/pastorTacos.jpg" alt="food" style="width:100%">
+      <h4>Tacos al Pastor favorite Mexican food</h4>
     </div>
   </div>
-  
-  <div class="column europe">
+  <div class="column pictures">
     <div class="content">
-      <img src="Greece.gif" alt="Car" style="width:100%">
-      <h4>Greece</h4>
-      <h5>Fun Fact</h5>
-      <p>The Greek national anthem is the longest in the world
-         and the original text of all anthems</p>
+    <img src="/img/Wings.webp" alt="food" style="width:100%">
+      <h4>Mnago Habanero Wings are the best!!</h4> 
     </div>
   </div>
-  <div class="column europe">
+  <div class="column pictures">
     <div class="content">
-    <img src="Moscow.gif" alt="Car" style="width:100%">
-      <h4>Moscow</h4>
-      <h5>Fun Fact </h5>
-      <p>Russia is the world’s largest country.</p>
+    <img src="/img/babyBoy.JPG" alt="food" style="width:100%">
+      <h4>This is my litle cousin who I went to visit a few months ago in Alabama. He is so cute I love him!</h4>
     </div>
   </div>
-  <div class="column europe">
+  </div>
+  <div class="column pictures">
     <div class="content">
-    <img src="lights.gif" alt="Car" style="width:100%">
-      <h4>Northern Lights</h4>
-      <h5>Fun Fact</h5>
-      <p>Aurora is the Roman goddess of dawn and Boreas is the Greek term for the 
-        north wind, hence the name Aurora Borealis.</p>
+    <img src="/img/badBunny.JPG" alt="food" style="width:100%">
+      <h4>This is Bad Bunny my favorite musician/artist</h4>
     </div>
   </div>
-  <div class="column africa">
+  <div class="column pictures">
     <div class="content">
-    <img src="CapeTownAfrica.gif" alt="Car" style="width:100%">
-      <h4>Cape Town </h4>
-      <h5>Fun Fact</h5>
-      <p>The second-most popular city in South Africa.</p>
+    <img src="/img/DadBD.JPG" alt="food" style="width:100%">
+      <h4>This was a picture from my dad's birthday and myself, sister and little cousin were in the picture</h4>
     </div>
   </div>
-
-  <div class="column africa">
+  <div class="column pictures">
     <div class="content">
-      <img src="Marocco.gif" alt="Car" style="width:100%">
-      <h4>Marocco</h4>
-      <h5>Fun Fact</h5>
-      <p>Morocco was the first country to recognize the United States of America as an
-         independent nation.</p>
+    <img src="/img/internship2.jpg" alt="food" style="width:100%">
+      <h4>Thi was last summer with my friends/coworkers during a summer internship with American Airlines</h4>
     </div>
   </div>
-  <div class="column africa">
+  <div class="column pictures">
     <div class="content">
-    <img src="Egypt.gif" alt="Car" style="width:100%">
-      <h4>Egypt</h4>
-      <h5>Fun Fact</h5>
-      <p>The official language of Egypt is Arabic, but some people also speak other 
-        languages like French and English.</p>
+    <img src="/img/MeAndSister.JPG" alt="food" style="width:100%">
+      <h4>This is me and my sister</h4>
     </div>
   </div>
-  <div class="column asia">
+  <div class="column pictures">
     <div class="content">
-    <img src="Dubai.gif" alt="Car" style="width:100%">
-      <h4>Dubai</h4>
-      <h5>Fun Fact</h5>
-      <p>Only non-Muslims are allow to consume alcohol</p>
+    <img src="/img/momAndDad.jpg" alt="food" style="width:100%">
+      <h4>This is a pictur of me, my dad and mom when I graduated elementary school in Mexico</h4>
     </div>
   </div>
-  <div class="column asia">
-    <div class="content">
-      <img src="SaudiArabia.gif" alt="Car" style="width:100%">
-      <h4>Saudia Arabia</h4>
-      <h5>Fun Fact</h5>
-      <p>Saudi Arabia is the largest country in the Middle East and the 12th 
-        largest in the world.</p>
-    </div>
   </div>
-  <div class="column asia ">
-    <div class="content">
-      <img src="Tokyo.gif" alt="Car" style="width:100%">
-      <h4>Tokyo</h4>
-      <h5>Fun Fact</h5>
-      <p>Tokyo is the largest city in the world with more than 38 million people.</p>
+  <div class="column info">
+    <h3>Any questions or concerns here it is my contact information</h3>
+      <h4>Email: labraramirezmargarita@gmail.com</h4>
+      <h4>My phone number is 817-908-8282</h4>
     </div>
   </div>
 <!-- END GRID -->
